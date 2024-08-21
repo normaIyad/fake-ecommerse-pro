@@ -1,0 +1,70 @@
+@import url(./public.css);
+
+.annicment a {
+  color: #807d7e;
+}
+.breadcrumb li a:hover {
+  color: #333;
+}
+.breadcrumb .active {
+  font-weight: 700;
+}
+.heder-top p {
+  color: #807d7e;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.card-prodacts tr th div img {
+  width: 105px;
+  height: 120px;
+  border-radius: 12px;
+}
+.card-prodacts tr th .d-flex {
+    gap: 10px;
+    margin: 10px 20px;
+}
+.card-prodacts tr th .txt p{
+    color: #807d7e;
+    font-weight: 400;
+    font-size: 14px;
+}
+.card-prodacts tr .quantity {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    border: 1px solid  transparent;
+}
+.card-prodacts tr .quantity button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #333;
+}
+.card-prodacts table thead th{
+    background-color: var(--background-color) ;
+    color: var( --background-color-btn);
+    padding: 20px ;
+}
+.card-prodacts table{
+  align-items: center;
+  text-align: center;
+}
+.card-prodacts table td{
+  padding: 5% 10px;
+}
+.card-prodacts table td i{
+  color: var( --navy-color);
+}
+.btton{
+  background-color: var(--prple-color);
+  color: white;
+}
+.total {
+  font-weight: 800;
+  font-size: 20px;
+}

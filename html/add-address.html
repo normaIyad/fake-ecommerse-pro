@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="../style/add-address.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../imgs/Logo (1).svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Combos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Joggers</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <div class="search-box">
+                <i class="fa fa-search"></i>
+                <input type="search" placeholder="Search" aria-label="Search" />
+              </div>
+            </form>
+            <div class="logos">
+              <a href="#"><img src="../imgs/navpar/heart.svg" /></a>
+              <a href="#"><img src="../imgs/navpar/user.svg" /></a>
+              <a href="#"><img src="../imgs/navpar/shopping cart.svg" /></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main class="container">
+        <section class="header mt-2 mb-2">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item text-secondary"><a href="#">Home</a></li>
+                <li class="breadcrumb-item text-secondary">
+                  <a href="#">My Account</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    Delivery Address 
+                </li>
+              </ol>
+            </nav>
+          </section>
+          <section class="d-flex body">
+            <section class="sider-bar">
+              <div
+                class="border-end bg-white d-flex flex-column align-items-stretch flex-shrink-0 bg-white"
+                id="sidebar-wrapper"
+              >
+                <div class="sidebar-heading border-bottom bg-light row">
+                  <div class="section_header">
+                    <h2>Hello <span>Jhanvi</span></h2>
+                  </div>
+                  <p>Welcome to your Account</p>
+                </div>
+                <div class="list-group list-group-flush">
+                  <a
+                    class="list-group-item list-group-item-action list-group-item-light p-3 d-flex justify-content-center"
+                    href="#!"
+                  >
+                    <img
+                      src="../imgs/persnal-info-page/right-bar-icons/bag.svg"
+                      alt=""
+                    />
+                    <span>
+                     
+                    My orders
+                    </span>
+                  </a>
+                  <a
+                    class="list-group-item list-group-item-action list-group-item-light p-3 d-flex justify-content-center"
+                    href="#!"
+                  >
+                    <img
+                      src="../imgs/persnal-info-page/right-bar-icons/hat+rt.svg"
+                      alt=""
+                    />
+                    <span>
+                        Wishlist
+                    </span>
+                   
+                  </a>
+                  <a
+                    class="list-group-item list-group-item-action list-group-item-light p-3 d-flex justify-content-center active-li"
+                    href="#!"
+                  >
+                    <img
+                      src="../imgs/persnal-info-page/right-bar-icons/persone.svg"
+                      alt=""
+                    />
+                    <span>
+                        My Info
+                    </span>
+                  
+                  </a>
+                  <a
+                    class="list-group-item list-group-item-action list-group-item-light p-3 d-flex justify-content-center"
+                    href="#!"
+                  >
+                    <img
+                      src="../imgs/persnal-info-page/right-bar-icons/log-out.svg"
+                      alt=""
+                    />
+                    <span>
+                       logout 
+                    </span>
+                    
+                  </a>
+                </div>
+              </div>
+            </section>
+          <section class="col-lg-9 col-md-8 contant">
+            <div class="header">
+                <h3>My Info</h3>
+                <p class="text-muted">Contact Details</p>
+              </div>
+              <form action="" class="form">
+                <div class="row w-100">
+                    <div class="mb-3 col-6 col-sm-3 w-50 ">
+                        <label for="fisst-name" class="form-label">Fisst Name</label>
+                        <input type="text" class="form-control" id="fisst-name"
+                            placeholder="first name"  />
+                    </div>
+                    <div class="mb-3 col-6 col-sm-3 w-50">
+                        <label for="last-name" class="form-label">last Name</label>
+                        <input type="text" class="form-control" id="last-name"
+                            placeholder="last name"  />
+                    </div>
+                </div>
+                <div class="row w-100">
+                    <div class="mb-3 col-6 col-sm-3 w-50">
+                        <label for="countru" class="form-label">Countru / Region</label>
+                        <input type="text" class="form-control" id="countru"
+                            placeholder="Countru / Region" />
+                    </div>
+                    <div class="mb-3 col-6 col-sm-3 w-50">
+                        <label for="company" class="form-label">Company Nmae</label>
+                        <input type="text" class="form-control" id="company"
+                            placeholder="Company (optinal)" />
+                    </div>
+                </div>
+                <div class="row w-100">
+                    <div class="mb-3 col-6 col-sm-3 w-50">
+                        <label for="address" class="form-label">street address</label>
+                        <input type="text" class="form-control" id="address"
+                            placeholder="House number and street name"  />
+                    </div>
+                    <div class="mb-3 col-6 col-sm-3 w-50">
+                        <label for="unit" class="form-label">Apt, suite, unit</label>
+                        <input type="text" class="form-control" id="unit"
+                            placeholder="apartment apt, suite, unit est (optinal)" />
+                    </div>
+                </div>
+                <div class="row w-100">
+                    <div class="mb-3 col-6 col-sm-3 w-50 ">
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="Town / City"
+                             />
+                    </div>
+                    <div class="mb-3 col-6 col-sm-3 w-50">
+                        <label for="state" class="form-label">State</label>
+                        <input type="text" class="form-control" id="state" placeholder="state" />
+                    </div>
+               
+                </div>
+                <div class="row w-100">
+                    <div class="mb-3 col-6 col-sm-3 w-50 ">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="text" class="form-control" id="phone"
+                            placeholder="phone"  />
+                    </div>
+                    <div class="mb-3 col-6 col-sm-3 w-50">
+                        <label for="pdstal" class="form-label">Postal Code</label>
+                        <input type="text" class="form-control" id="pdstal"
+                            placeholder="Postal Code" />
+                    </div>
+                </div>
+                <div class="row w-100">
+                    <div class="form-group mb-3 col-6 col-sm-3 w-50">
+                        <label for="exampleFormControlTextarea1">Delivery Instructions </label>
+                        <textarea class="form-control w-100" id="exampleFormControlTextarea1" rows="5"  placeholder="Delivery Instructions"></textarea>
+                      </div>
+                </div>
+                <div class=" w-100 form-check mb-3">
+                    <input class="form-check-input" type="checkbox" value="" id="default-add">
+                    <label class="form-check-label" for="default-add">
+                        Set as default shipping address
+                    </label>
+                  </div>
+                  <div class=" w-100 form-check align-items-center mb-3 ">
+                    <input class="form-check-input" type="checkbox" value="" id="default-billing">
+                    <label class="form-check-label" for="default-billing">
+                        Set as default billing address
+                    </label>
+                  </div>                
+                  <button type="submit" class="btn btn-primary purple">Save</button>
+                  <button class="btn btn-light">cansel</button>
+              </form>
+          </section>
+          </section>
+      </main>
+ 
+      <footer class="footer p-3 mb-2 text-white text-center text-lg-start">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Need Help</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Contact Us</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Track Order</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Returns & Refunds</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">FAQ's</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Career </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Company</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">About Us</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">euphoria Blog</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">euphoriostan</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Colloboration</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Media </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">More Info</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Tern and Condituons</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Privacy Policy</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Shopoing Policy</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Sitemop</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Location</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >support@euphrio.in</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >Eklingpuro Chouraha, Ahmedabad Main Rood
+                  </a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white"
+                    >(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact d-flex justify-content-between align-items-center">
+            <div class="social-media">
+              <a href="#" class="me-4 text-reset">
+                <!-- <i class="fab fa-facebook-f"></i> -->
+                <img
+                  src="../imgs/social-media/Vector (2).svg"
+                  class="bg-light"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="me-4 text-reset">
+                <!-- <i class="fab fa-twitter"></i> -->
+                <img
+                  src="../imgs/social-media/Vector (3).svg"
+                  class="bg-light"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="me-4 text-reset">
+                <!-- <i class="fab fa-google"></i> -->
+                <img
+                  src="../imgs/social-media/Vector (4).svg"
+                  class="bg-light"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="me-4 text-reset">
+                <!-- <i class="fab fa-instagram"></i> -->
+                <img src="../imgs/social-media/in.svg" class="bg-light" alt="" />
+              </a>
+            </div>
+            <div class="downlowd">
+              <h3>Downlowd The App</h3>
+              <div class="d-flex align-items-center">
+                <img src="../imgs/downlowd-app/google-play.png" alt="" />
+                <img src="../imgs/downlowd-app/app-store.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="dropdown w-100 p-3">
+            <div class="btn-group w-100 p-3">
+              <button
+                type="button"
+                class="btn btn-secondary dropdown-toggle w-100 p-3 d-flex justify-content-between align-items-center"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Popular Categories
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <button class="dropdown-item" type="button">Action</button>
+                <button class="dropdown-item" type="button">
+                  Another action
+                </button>
+                <button class="dropdown-item" type="button">
+                  Something else here
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>
+              Copyright &copy; 2023 Euphoria Folks Pvt Ltd. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script src="../js/myinfo.js"></script>
+</body>
+</html>

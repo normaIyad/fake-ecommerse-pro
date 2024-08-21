@@ -1,0 +1,156 @@
+@import url(./public.css);
+@import url(./style.css);
+/* .order h3{
+ 
+} */
+.bill .billimg-dratals {
+  width: 70%;
+}
+.bill .order {
+  width: 30%;
+  gap: 10px;
+}
+.bill .order .order-prodct {
+  gap: 10px;
+}
+.bill .order h5 {
+  font-weight: 700;
+}
+.bill .order h5,
+.bill .order p,
+.bill .order .price {
+  font-size: 14px;
+  font-weight: 600;
+}
+.bill .order p span {
+  color: #807d7e;
+  font-weight: 300;
+}
+.bill .order img {
+  width: 60px;
+}
+.form .purple {
+    margin: 10px;
+  color: var(--wight-font-color);
+}
+.form .purple:hover{
+    color: black;
+}
+.form input[type="text"],
+.form input[type="tel"],
+.form input[type="email"],
+.form input[type="number"],
+.form-control {
+  border: none;
+  background-color: var(--background-color-btn);
+  outline: none;
+  width: 100%;
+  padding: 10px;
+}
+.form-check-input {
+  width: 15px !important;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+.shapping-add {
+  font-size: 18px;
+  padding: 10px;
+}
+.shapping-add p {
+  color: #807d7e;
+  font-weight: 400;
+  border-radius: var(--border-radus);
+  -webkit-border-radius: var(--border-radus);
+  -moz-border-radius: var(--border-radus);
+  -ms-border-radius: var(--border-radus);
+  -o-border-radius: var(--border-radus);
+}
+.shapping-add .chosies {
+  background-color: var(--background-color-btn);
+}
+
+.shapping-add .custom-control {
+  padding: 20px;
+  background-color: var(--background-color-btn);
+  gap: 20px;
+}
+.shipping-method .row {
+  background-color: var(--background-color-btn);
+  gap: 10px;
+}
+
+.shipping-method h3,
+.shapping-method h5 {
+  margin: 40px 0;
+}
+.pay-options {
+  border-radius: var(--border-radus);
+  bottom: 1px solid var(--background-color-btn);
+  padding: 5px;
+  -webkit-border-radius: var(--border-radus);
+  -moz-border-radius: var(--border-radus);
+  -ms-border-radius: var(--border-radus);
+  -o-border-radius: var(--border-radus);
+}
+.shipping-method h3,
+.pay-ment h3,
+.shapping-method h5,
+.shapping-add h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.shipping-method .text {
+  padding: 20px 5px;
+}
+.shapping-method p {
+  color: #807d7e;
+  font-weight: 500;
+  font-size: 16px;
+}
+.shapping-method .price {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.way-to-pay .imgs {
+  gap: 10px;
+}
+.way-to-pay input[type="text"],
+.way-to-pay input[type="number"] {
+  border: 1px solid #ccc;
+}
+.payment-radio {
+  gap: 25px;
+  padding: 10px 0;
+}
+.custom-control {
+  background-color: var(--background-color-btn);
+  padding: 5px 7px;
+}
+.custom-control-label h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.custom-control-label p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #807d7e;
+}
+.way-to-pay {
+  background-color: var(--background-color-btn);
+}
+.way-to-pay .card-input {
+  margin: 10px;
+}
+@media (max-width: 768px) {
+  .billing {
+    flex-direction: column-reverse;
+  }
+  .bill .billimg-dratals {
+    width: 110%;
+  }
+  .bill .order {
+    width: 100%;
+    gap: 10px;
+  }
+}

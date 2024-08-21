@@ -1,0 +1,56 @@
+@import url(./public.css);
+
+.body .your-info {
+  width: 70%;
+}
+
+.alladres {
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.alladres .address {
+  background-color: var(--background-color-btn);
+  width: calc((100% / 2) - 20px);
+  padding: 20px;
+  gap: 10px;
+}
+
+.alladres .address p {
+  font-size: 14px;
+  color: var(--font-color);
+  text-align: left;
+}
+
+.alladres .address .edit-btn {
+  font-size: 14px;
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+.alladres .address .delete-btn {
+  font-size: 14px;
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+.alladres .address .links {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  color: #3c4242;
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .body {
+    flex-direction: column;
+  }
+  .alladres {
+    flex-direction: column;
+  }
+  .alladres .address {
+    width: calc(100% - 20px);
+  }
+}
